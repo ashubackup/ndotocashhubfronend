@@ -1,0 +1,121 @@
+/*My CSS Below*/
+/*CSS for Login Form*/
+.login-main{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    padding: 90px 0 90px 0;
+    /* background: #000000b0; */
+    background: linear-gradient(to left, #0d6387 0%,#4365d4 60%,#1c1c1d 110%);
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: 1000;
+  }
+  
+  .login-sub-main{
+    display:flex;
+    justify-content: center;
+    height:250px;
+    width:35%;
+    /* box-shadow: 11px 12px 13px 12px rgb(235, 105, 105); */
+    padding-top:30px;
+    border-radius:60px;
+    background-color:black;
+    opacity: 0.8;
+  }
+  
+  .font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: white;
+  }
+
+  .login-imgs{
+    padding-top:20px;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+  }
+  
+  .login-profile{
+    height:100px;
+    width:250px;
+    border-radius:130px; 
+  }
+  
+  input{
+    width:300px;
+    height:50px;
+    border-radius:60px;
+    box-shadow:inset 0px 0px 25px 0px #888;
+    border:none;
+    outline:none;
+    background-color:#fff;
+  }
+  
+  .login-email{
+    height:40px;
+    width: 40px;
+    position:absolute;
+    /* padding: 14px 0 0 25px;   */
+    padding-top:5px;
+    padding-left:15px;
+  }
+  
+  .login-name{
+    padding-left:30px; /*!important;*/
+    font-size:20px;
+    width:250px;
+    height:30px;
+    border-radius:60px;
+    box-shadow:inset 0px 0px 25px 0px #888;
+    border:none;
+    outline:none;
+    background-color:#fff;
+  }
+  
+  .login-second-div{
+    padding-top:10px;
+  }
+  
+  .login-bttn{
+    width:100px;
+    height:35px;
+    border-radius:60px;
+    background-color:rgb(12, 174, 69);
+    color:white;
+    font-size: 25px;
+    border:none;
+  }
+  
+  .login-bttn-div{
+    padding-top:18px;
+  }
+  
+  .pay-btn-div{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+@media only screen and (max-width:1154px) {
+  .login-sub-main{
+    width:300px;
+    height:250px;
+  }
+  .login-imgs{
+
+  }
+  .login-profile{
+
+  }
+  .login-name{
+
+  }
+  .login-bttn{
+    width:180px;
+  }
+  
+}
